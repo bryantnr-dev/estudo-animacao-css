@@ -1,0 +1,53 @@
+@keyframes animacao {
+    0% { background-color: purple; height: 500px; top: 0; }
+    50% { background-color: yellow; height: 200px; top: 50%; }
+    100% { background-color: red; height: 10px; top: 100%; }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner1, .conteiner2, .conteiner3, .conteiner4, .conteiner5 {
+    width: 50px;
+    background-color: purple;
+    position: absolute;
+    animation-name: animacao;
+}
+
+.conteiner1 {
+    animation-duration: 6s;
+    animation-delay: 0s;
+    animation-iteration-count: 4;
+    left: 0;
+}
+
+.conteiner2 {
+    animation-duration: 7s;
+    animation-delay: 0s;
+    animation-iteration-count: 4;
+    left: 60px;
+}
+
+.conteiner3 {
+    animation-duration: 8s;
+    animation-delay: 0s;
+    animation-iteration-count: 4;
+    left: 120px;
+}
+
+.conteiner4 {
+    animation-duration: 9s;
+    animation-delay: 0s;
+    animation-iteration-count: 4;
+    left: 180px;
+}
+
+.conteiner5 {
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: 4;
+    left: 240px;
+}
